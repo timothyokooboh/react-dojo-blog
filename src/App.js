@@ -1,4 +1,5 @@
 
+ import GlobalStyles from "./components/styles/Global.styled.js";
 import { ThemeProvider } from "styled-components";
 import {
   Route,
@@ -24,6 +25,7 @@ const App = () => {
   return ( 
     <Router>
       <ThemeProvider theme = {theme}>
+        <GlobalStyles />
         <div className="app">
           <Navbar />
           <div className="content">

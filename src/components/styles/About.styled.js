@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const StyledAbout = styled.div`
     h2 {
-        color: green;
+        color: red;
     }
 
     .about-body {
